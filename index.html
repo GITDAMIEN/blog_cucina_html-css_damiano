@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cucinando</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./ricette_venete.html">Ricette venete</a></li>
+            <li><a href="./ricette_abruzzesi.html">Ricette abruzzesi</a></li>
+            <li><a href="./ricette_orientali.html">Ricette orientali</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- header -->
+        <header>
+            <h1 class="header">Cucinando</h1>
+            <blockquote cite="https://www.frasicelebri.it/frasi-di/antonino-cannavacciuolo/">“Il successo non arriva trasportato dall'acqua e non cade neanche dal cielo. Per avere successo in cucina bisogna lottare.”</blockquote>
+            <address>Antonino Cannavvacciuolo</address>
+        </header>
+
+        <!-- sezione ricette italiane -->
+        <div>
+            <h2>Ricette italiane</h2>
+                <video controls autoplay muted loop width="500" height="300">
+                    <source src="./media/Come pulire gli asparagi.mp4">Video asparagi
+                </video>
+
+            <!-- sezione ricette abruzzesi -->
+            <section>
+            
+                <h2><a href="./ricette_abruzzesi.html">Ricette abruzzesi</a></h2>
+                <p><a href="./spaghettiChitarra.html">Spaghetti alla chitarra con le pallottoline</a></p>
+                <p><a href="./cacio.html">Cacio fritto</a></p>
+                <p><a href="./ferratelle.html">Ferratelle</a></p>
+            </section>
+
+            <!-- sezione ricette venete -->
+            
+            <section>
+                <h2><a href="./ricette_venete.html">Ricette venete</a></h2>
+                <p><a href="./amarone.html">Risotto all'Amarone</a></p>
+                <p><a href="./baccala.html">Baccalà alla vicentina</a></p>
+                <p><a href="./malga.html">Gnocchi di malga</a></p>
+            </section>
+        </div>
+
+        <br>
+
+        <!-- proposta piatto orientale -->
+        <aside>
+            <h3><em>Vuoi provare un piatto orientale?</em></h3>
+                <a href="./ricette_orientali.html">
+                    <video autoplay muted loop width="300" height="200">
+                        <source src="./media/RicettaSushi.mp4">
+                    </video>
+                </a>
+                <!-- <p>Video sushi fatto in casa</p> -->
+        </aside>
+    </main>
+    
+    <br>
+
+    <!-- audio Borghese -->
+    <aside>
+        <h3>Ascolta l'opinione di Alessandro Borghese sul nostro blog:</h3>
+        <audio src="./media/Alessandro_Borghese_-_Voto_10.mp3" controls></audio>
+    </aside>
+
+    <br>
+
+    <!-- footer per contatti e newsletter -->
+    <footer>
+        <address>
+            Blog creato da Damiano e Filippo
+        </address>
+        <br>
+        <label for="email">Iscriviti alla nostra newsletter!</label>
+        <form>
+            <input type="email" id="email" placeholder="E-mail">
+            <button type="submit">Iscriviti!</button>
+        </form>
+    </footer>
+</body>
+</html>

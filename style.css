@@ -1,0 +1,33 @@
+
+*{
+    background-color: rgb(164, 247, 220);
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    font-weight: bold;
+}
+
+.header{
+    text-align: right;
+    background-image: url("./media/cucina-italiana.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 235px;
+    /* padding-left: 490px; */
+    background-color: white;
+    font-style: oblique;
+    font-size: 39px;
+    text-decoration: underline;
+}
+
+div, h2, section{
+    justify-content: center;
+    text-align: center;
+}

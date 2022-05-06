@@ -1,0 +1,21 @@
+.container-fluid{
+    background-color: rgb(234, 179, 84);
+}
+
+.navbar-toggler{
+    width: 45px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #232323;
+}
+
+h1 a:hover{
+    color: #2323239d;
+}
+
+.vuoto{
+    width: 45px;
+    height: 40px;
+}
